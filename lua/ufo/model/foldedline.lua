@@ -52,7 +52,7 @@ function FoldedLine:updateVirtText(lnum, endLnum, virtText, doRender)
             end_row = endLnum - 1,
             end_col = 0,
             priority = 10,
-            hl_mode = 'combine'
+            -- hl_mode = 'combine'
         }
         if not utils.has10() then
             opts.virt_text = virtText
